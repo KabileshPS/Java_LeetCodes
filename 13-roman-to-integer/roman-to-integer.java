@@ -6,7 +6,14 @@ class Solution {
         {
             int curr= value(s.charAt(i));
             int next= (i+1)<n?value(s.charAt(i+1)):0;
-            sum += (curr >= next) ? curr : -curr;
+            if(curr>=next)
+            {
+                sum+=curr;
+            }
+            else
+            {
+                sum-=curr;
+            }
         }
       return sum;
     }
