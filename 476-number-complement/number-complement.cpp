@@ -3,7 +3,7 @@ public:
     int findComplement(int num) {
        int n=num;
        int c=0;
-       long long r=0;
+       long  r=0;
        long  power=1;
        while(n!=0)
        {
