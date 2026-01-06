@@ -4,7 +4,7 @@ public:
        int n=num;
        int c=0;
        long long r=0;
-       long long power=1;
+       long  power=1;
        while(n!=0)
        {
            c=n%2;
