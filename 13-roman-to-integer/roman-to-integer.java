@@ -14,14 +14,10 @@ class Solution {
             {
                 sum-=curr;
             }
-
-       
-
         }
       return sum;
     }
-
-     int value(char c)
+  int value(char c)
         {
         if (c == 'I') return 1;
         if (c == 'V') return 5;
