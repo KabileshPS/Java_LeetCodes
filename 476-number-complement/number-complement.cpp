@@ -17,6 +17,6 @@ public:
            power=power*2;
            n=n/2;
        }
-       return (int)r;
+       return r;
     }
 };
