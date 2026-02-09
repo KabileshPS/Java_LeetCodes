@@ -7,39 +7,24 @@ class ParkingSystem {
         this.medium=medium;
         this.small=small;
     }
-    
     public boolean addCar(int carType) {
-        if(carType==1)
-        {
-          if(big>0)
-            {
+        if(carType==1){
+          if(big>0){
                 big--;
-                return true;
-            }
-            return false;
-        }
-        if(carType==2)
-        {
-            if(medium>0)
-            {
+                return true;}
+            return false;}
+        if(carType==2){
+            if(medium>0){
                 medium--;
-                return true;
-            }
-            return false;
-        }
-        if(carType==3)
-        {
-            if(small>0)
-            {
+                return true;}
+            return false;}
+        if(carType==3){
+            if(small>0){
                 small--;
-                return true;
-            }
-            return false;
+                return true;}
+            return false;}
+        return false;}
         }
-        return false;
-    }
-    
-}
 
 /**
  * Your ParkingSystem object will be instantiated and called as such:
